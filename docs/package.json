@@ -1,0 +1,17 @@
+{
+  "name": "workshop-devenv-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\""
+  },
+  "author": "Julien Tanguy",
+  "license": "ISC",
+  "dependencies": {
+    "sfeir-school-theme": "^3.1.0-rc-1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
