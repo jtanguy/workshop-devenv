@@ -6,11 +6,13 @@ import { SfeirThemeInitializer } from "../node_modules/sfeir-school-theme/sfeir-
  */
 function introSlides() {
   return [
-    "../markdown/intro/00-TITLE.md",
-    "../markdown/intro/01-plan.md",
-    "../markdown/intro/02-setup.md",
-    "../markdown/intro/10-nix.md",
-    "../markdown/hello-world/01-hello-world.md",
+    "../markdown/0-intro/00-TITLE.md",
+    "../markdown/0-intro/01-plan.md",
+    "../markdown/0-intro/02-setup.md",
+    "../markdown/0-intro/03-contexte.md",
+    "../markdown/0-intro/04-pourquoi-devenv.md",
+    "../markdown/0-intro/10-nix.md",
+    "../markdown/1-hello-world/01-hello-world.md",
   ];
 }
 
