@@ -5,10 +5,12 @@
 ##==##
 
 <!-- .slide: class="exercice" -->
+
 # Hello world
 
 ## Lab
 
+- Initialiser devenv
 - Démarrer le devenv shell
 - Observer les changements sur `git`
 
@@ -17,6 +19,7 @@
 ##==##
 
 <!-- .slide: class="exercice" -->
+
 # Hello JQ
 
 ## Lab
@@ -25,4 +28,3 @@
 - Help: `devenv search jq`
 
 ### Étape: 02-jq
-
