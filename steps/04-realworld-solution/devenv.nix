@@ -15,14 +15,17 @@
   };
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = [ pkgs.git pkgs.usql ];
 
   # https://devenv.sh/scripts/
   scripts.hello.exec = "echo hello from $GREET";
 
+  scripts.enterDB.exec = "usql postgres://root@localhost/database_development";
+
   enterShell = ''
     hello
     git --version
+    usql --version
   '';
 
   languages.javascript = {
