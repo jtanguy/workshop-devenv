@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\""
+    "serve": "npx live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\""
   },
   "author": "Julien Tanguy",
   "license": "ISC",

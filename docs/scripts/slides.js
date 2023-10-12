@@ -1,4 +1,4 @@
-import { SfeirThemeInitializer } from "../node_modules/sfeir-school-theme/sfeir-school-theme.mjs";
+import { SfeirThemeInitializer } from "../web_modules/sfeir-school-theme/sfeir-school-theme.mjs";
 
 /*
  * Les préfixes ../markdown sont là pour profiter du raccourci vim `gf`
