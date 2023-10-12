@@ -5,6 +5,8 @@
 ##==##
 
 # Scripts
+<!-- .slide: class="with-code" -->
+
 
 Permet de définir des scripts utilitaires au projet
 
@@ -21,9 +23,11 @@ Permet de définir des scripts utilitaires au projet
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 
 # Scripts
+
 
 On peut utiliser les binaires sans les inclure dans le packages
 
@@ -44,7 +48,7 @@ On peut utiliser les binaires sans les inclure dans le packages
 
 # Processes
 
-Les processes sont tous démarrés par `devenv up`
+Les processes sont tous démarrés par `devenv up` (honcho est utilisé sous le capot)
 
 ```nix
 { pkgs, ... }:
@@ -75,3 +79,22 @@ Starting processes ...
 ...
 ```
 
+##==##
+<!-- .slide: class="with-code" -->
+
+# Services
+
+* packages -> languages
+* processes -> services
+
+https://devenv.sh/services/#supported-services
+
+
+```nix
+{ pkgs, ... }:
+
+{
+  services.redis.enable = true;
+}
+```
+<!-- .element: class="big-code" -->

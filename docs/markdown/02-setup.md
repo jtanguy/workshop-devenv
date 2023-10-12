@@ -5,13 +5,30 @@ Un environnement de développement linux-like
 - Linux
 - MacOS
 - WSL2 pour Windows
-- Docker
+
+- Github codespaces: https://github.com/jtanguy/workshop-devenv
 
 ##==##
 
 <!-- .slide: class="exercice" -->
 
 # Installation
+
+## Lab
+
+<br>
+
+- https://github.com/jtanguy/workshop-devenv
+- Lancer un codespace
+
+### Étape: Installation
+
+
+
+##--##
+<!-- .slide: class="exercice" -->
+
+# Installation (Alt)
 
 ## Lab
 

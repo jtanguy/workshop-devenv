@@ -4,78 +4,6 @@
 
 ##==##
 
-# Syntaxe nix
-
-<!-- .slide: class="with-code" -->
-
-## Exemple de fichier devenv pour Rust
-
-```nix
-{ pkgs, lib, ... }:
-
-{
-  languages.rust = {
-    enable = true;
-    # https://devenv.sh/reference/options/#languagesrustchannel
-    channel = "nightly";
-
-    components = [ "rustc" "cargo" "clippy" "rustfmt" "rust-analyzer" ];
-  };
-
-  #pre-commit.hooks = {
-  #  rustfmt.enable = true;
-  #  clippy.enable = true;
-  #};
-
-  packages = lib.optionals pkgs.stdenv.isDarwin (with pkgs.darwin.apple_sdk; [
-    frameworks.Security
-  ]);
-}
-```
-
-##==##
-
-# Syntaxe nix
-
-<!-- .slide: class="with-code" -->
-
-## AttributSet - "paramètres du script" 
-
-```nix
-{ pkgs, lib, ... }:
-{
-    # ...
-}
-```
-
-##==##
-
-# Syntaxe nix
-
-<!-- .slide: class="with-code" -->
-
-## Les objets - ou comment regrouper les clés
-
-```nix
-{
-    languages.rust.enable = true;
-    languages.rust.channel = "nightly";
-}
-```
-
-```nix
-{
-    languages.rust = {
-        enable = true;
-        channel = "nightly";
-    };
-}
-```
-
-### ⚠️ Chaque instruction se termine par un ;
-
-##==##
-
 <!-- .slide: class="with-code" -->
 
 # devenv.yaml
@@ -131,12 +59,10 @@ imports:
     channel = "nightly";
     components = [ "rustc" "cargo" "clippy" "rustfmt" "rust-analyzer" ];
   };
-
   #pre-commit.hooks = {
   #  rustfmt.enable = true;
   #  clippy.enable = true;
   #};
-
   packages = [ pkgs.git pkgs.curl pkgs.jq pkgs.usql ];
 }
 ```
@@ -149,7 +75,7 @@ imports:
 
 <!-- .slide: class="with-code" -->
 
-## AttributSet - "paramètres du script" 
+## Fonctions 
 
 ```nix
 { pkgs, lib, ... }:
@@ -160,7 +86,7 @@ imports:
 
 <!-- .element: class="big-code" -->
 
-### ⚠️ Ici on termine par :
+### ⚠️ Le `:` sépare les arguments de la fonction de son corps
 
 ##==##
 
@@ -175,6 +101,8 @@ imports:
   packages = [ pkgs.git pkgs.curl pkgs.jq pkgs.usql ];
 }
 ```
+### ⚠️ Pas de `,` entre les éléments d'un tableau
+
 
 <!-- .element: class="big-code" -->
 
@@ -182,9 +110,10 @@ imports:
 
 # Nix Package
 
+[https://search.nixos.org/packages](https://search.nixos.org/packages)
+
 ![](./assets/images/nix-package-search.png)
 
-![https://search.nixos.org/packages](https://search.nixos.org/packages)
 
 
 ##==##
@@ -193,7 +122,7 @@ imports:
 
 <!-- .slide: class="with-code" -->
 
-## Les objets - ou comment regrouper les clés
+## Attribute Sets - ou comment regrouper les clés
 
 ```nix
 {
@@ -219,6 +148,7 @@ imports:
 
 # Référence de toutes les clés du devenv.nix
 
+[https://devenv.sh/reference/options/](https://devenv.sh/reference/options/)
+
 ![](./assets/images/devenv-nix-reference.png)
 
-[https://devenv.sh/reference/options/](https://devenv.sh/reference/options/)

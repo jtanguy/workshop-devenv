@@ -6,11 +6,12 @@
 
 <!-- .slide: class="exercice" -->
 
-# S
+# Script, process et service
 
 ## Lab
 
-- Backend + frontend
-- PostgreSQL en DB
+- Écrire un process docs qui lance `mkdocs serve`
+- Configurer le service postgres pour créer une DB workshop avec ./db/init.sql
+- Créer un script pour se connecter à la DB avec `usql postgres://localhost:5432/workshop`
 
-### Étape: 04-realworld
+### Étape: 04-scripts
