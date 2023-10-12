@@ -7,12 +7,13 @@ import { SfeirThemeInitializer } from "../web_modules/sfeir-school-theme/sfeir-s
 function introSlides() {
   return [
     "../markdown/00-TITLE.md",
-    "../markdown/01-plan.md",
+    // "../markdown/01-plan.md",
     "../markdown/02-setup.md",
     "../markdown/03-contexte.md",
     "../markdown/04-pourquoi-devenv.md",
     "../markdown/05-nix.md",
     "../markdown/10-hello-world.md",
+    "../markdown/15-hello-jq.md",
     "../markdown/20-devenv.md",
     "../markdown/30-hello-python.md",
     "../markdown/40-processes-services.md",

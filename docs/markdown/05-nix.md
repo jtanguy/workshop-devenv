@@ -27,3 +27,16 @@ lrwxrwxrwx 3 root root   67 Jan  1  1970 node -> /nix/store/x8vrc1c6r8nn454whr99
 lrwxrwxrwx 3 root root   66 Jan  1  1970 npm -> /nix/store/x8vrc1c6r8nn454whr99bxc5hdy5ybjf-nodejs-18.18.0/bin/npm*
 lrwxrwxrwx 3 root root   66 Jan  1  1970 npx -> /nix/store/x8vrc1c6r8nn454whr99bxc5hdy5ybjf-nodejs-18.18.0/bin/npx*
 ```
+
+
+##==##
+
+# Cachix
+
+> Nix binary cache hosting
+
+##==##
+
+# Devenv
+
+> Fast, Declarative, Reproducible, and Composable Developer Environments using Nix

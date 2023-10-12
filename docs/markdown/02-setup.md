@@ -16,6 +16,11 @@ Un environnement de développement linux-like
 ## Lab
 
 <br>
-https://devenv.sh/getting-started/
+
+[https://devenv.sh/getting-started/](https://devenv.sh/getting-started/)
 
 ### Étape: Installation
+
+- installer Nix
+- installer Cachix
+- installer Devenv

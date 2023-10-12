@@ -8,6 +8,7 @@
 * Comment gérer les outils de développement ? 
 * Comment faciliter l'installation d'un nouveau poste ?
 * Comment faciliter le développement en local ?
+<!-- .element: class="list-fragment" -->
 
 ##==##
 

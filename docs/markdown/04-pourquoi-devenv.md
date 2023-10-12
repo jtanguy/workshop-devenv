@@ -9,6 +9,7 @@
 * Gestion des services annexes
 * Se repose sur un vrai package manager: nix
 * Se repose sur le plus grand repository: nixpkgs
+<!-- .element: class="list-fragment" -->
 
 ##==##
 
