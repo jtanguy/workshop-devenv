@@ -1,9 +1,11 @@
 <!-- .slide: class="first-slide"  -->
-# Workshop devenv
+
+# Changer son environnement fullstack<br/> en un clin d'oeil<br/> avec devenv
 
 ##==##
 
 <!-- .slide: class="speaker-slide" -->
+
 # Qui sommes-nous
 
 ![speaker](./assets/images/julien.jpg)
@@ -26,6 +28,7 @@
 ##==##
 
 <!-- .slide: class="speaker-slide" -->
+
 # Qui sommes-nous
 
 ![speaker](./assets/images/antho.jpg)
@@ -37,7 +40,7 @@
 
 <!-- .element: class="icon-rule icon-first" -->
 
-### @_Anthony_Pena
+### @\_Anthony_Pena
 
 <!-- .element: class="icon-twitter icon-second" -->
 
