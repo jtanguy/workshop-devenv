@@ -1,26 +1,28 @@
 { pkgs, ... }:
 
 {
-  # https://devenv.sh/packages/
-  packages = [ pkgs.usql ];
+  # https://devenv.sh/basics/
+  env.GREET = "devenv";
 
-  enterShell = ''
-    echo "# =========================================="
-    echo "# Run \`devenv up\` to start DB and serve docs"
-    echo "# =========================================="
-  '';
+  # https://devenv.sh/packages/
+  packages = [ pkgs.git ];
 
   # https://devenv.sh/scripts/
-  scripts.workshop-enterDB.exec = "usql postgres://localhost:5432/workshop";
+  scripts.hello.exec = "echo hello from $GREET";
 
-  processes.docs.exec = "${pkgs.mkdocs}/bin/mkdocs serve";
-  services.postgres.enable = true; 
-  services.postgres = {
-    listen_addresses = "127.0.0.1";
-    initialDatabases = [{
-      name = "workshop";
-      schema = ./db/init.sql;
-    }];
-  };
+  enterShell = ''
+    hello
+    git --version
+  '';
 
+  # https://devenv.sh/languages/
+  # languages.nix.enable = true;
+
+  # https://devenv.sh/pre-commit-hooks/
+  # pre-commit.hooks.shellcheck.enable = true;
+
+  # https://devenv.sh/processes/
+  # processes.ping.exec = "ping example.com";
+
+  # See full reference at https://devenv.sh/reference/options/
 }
