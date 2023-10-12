@@ -13,9 +13,10 @@ function introSlides() {
     "../markdown/04-pourquoi-devenv.md",
     "../markdown/05-nix.md",
     "../markdown/10-hello-world.md",
-    "../markdown/15-hello-jq.md",
     "../markdown/20-devenv.md",
-    "../markdown/30-hello-python.md",
+    "../markdown/25-hello-jq.md",
+    "../markdown/30-devenv-languages.md",
+    "../markdown/35-hello-python.md",
     "../markdown/40-processes-services.md",
     "../markdown/50-hello-real-world.md",
   ];
