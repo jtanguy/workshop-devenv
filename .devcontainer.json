@@ -2,9 +2,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "mkhl.direnv",
-        "bbenoist.Nix",
-        "vscodevim.vim"
+        "mkhl.direnv"
       ]
     }
   },

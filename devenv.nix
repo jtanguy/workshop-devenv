@@ -9,5 +9,4 @@
     serve.exec = "cd docs; npm run serve";
   };
 
-  # See full reference at https://devenv.sh/reference/options/
 }
