@@ -1,7 +1,6 @@
 { pkgs, ... }:
 {
-  packages = [ pkgs.lnav ];
-
+  devcontainer.enable = true;
   # https://devenv.sh/languages/
   languages.javascript.enable = true;
 
