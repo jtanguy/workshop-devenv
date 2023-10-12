@@ -10,8 +10,21 @@
 
 ## Lab
 
-- Initialiser devenv
 - Ajouter le package python
-- Migrer vers le language python
+- Lancer le script hello.py
 
 ### Étape: 03-python
+
+##==##
+
+<!-- .slide: class="exercice" -->
+
+# Hello python v2
+
+## Lab
+
+- Migrer vers le language python
+- Lancer le script hello.py
+
+### Étape: 03-python
+
