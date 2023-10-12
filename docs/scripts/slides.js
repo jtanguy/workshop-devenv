@@ -18,6 +18,7 @@ function introSlides() {
     "../markdown/30-devenv-languages.md",
     "../markdown/35-hello-python.md",
     "../markdown/40-processes-services.md",
+    "../markdown/45-hello-scripts.md",
     "../markdown/50-hello-real-world.md",
   ];
 }
