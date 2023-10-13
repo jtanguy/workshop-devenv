@@ -89,6 +89,34 @@ imports:
 ### ⚠️ Le `:` sépare les arguments de la fonction de son corps
 
 ##==##
+<!-- .slide: class="with-code" -->
+
+# Syntaxe nix
+
+## Attribute Sets - ou comment regrouper les clés
+
+```nix
+{
+    languages.rust.enable = true;
+    languages.rust.channel = "nightly";
+}
+```
+
+<!-- .element: class="big-code" -->
+
+```nix
+{
+    languages.rust = {
+        enable = true;
+        channel = "nightly";
+    }
+}
+```
+
+<!-- .element: class="big-code" -->
+
+
+##==##
 
 # Syntaxe nix
 
@@ -114,36 +142,6 @@ imports:
 
 ![](./assets/images/nix-package-search.png)
 
-
-
-##==##
-
-# Syntaxe nix
-
-<!-- .slide: class="with-code" -->
-
-## Attribute Sets - ou comment regrouper les clés
-
-```nix
-{
-    languages.rust.enable = true;
-    languages.rust.channel = "nightly";
-}
-```
-
-<!-- .element: class="big-code" -->
-
-```nix
-{
-    languages.rust = {
-        enable = true;
-        channel = "nightly";
-    }
-}
-```
-
-<!-- .element: class="big-code" -->
-
 ##==##
 
 # Référence de toutes les clés du devenv.nix
@@ -151,4 +149,3 @@ imports:
 [https://devenv.sh/reference/options/](https://devenv.sh/reference/options/)
 
 ![](./assets/images/devenv-nix-reference.png)
-
