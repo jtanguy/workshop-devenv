@@ -1,1 +1,13 @@
-docs/.devcontainer.json
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bbenoist.Nix",
+        "jnoortheen.nix-ide"
+      ]
+    }
+  },
+  "image": "ghcr.io/cachix/devenv:latest",
+  "overrideCommand": false,
+  "updateContentCommand": "devenv ci"
+}

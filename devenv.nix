@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   devcontainer.enable = true;
-  devcontainer.settings.customizations.vscode.extensions = [ "bbenoist.Nix" "jnoortheen.nix-ide" ];
+  devcontainer.settings.customizations.vscode.extensions = [ "bbenoist.Nix" ];
 
   # https://devenv.sh/languages/
   languages.javascript.enable = true;
