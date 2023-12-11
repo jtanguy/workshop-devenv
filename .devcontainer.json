@@ -1,12 +1,1 @@
-{
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "bbenoist.Nix"
-      ]
-    }
-  },
-  "image": "ghcr.io/cachix/devenv:latest",
-  "overrideCommand": false,
-  "updateContentCommand": "devenv ci"
-}
+docs/.devcontainer.json
