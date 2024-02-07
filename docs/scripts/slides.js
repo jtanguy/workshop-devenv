@@ -17,6 +17,7 @@ function introSlides() {
     "../markdown/25-hello-jq.md",
     "../markdown/27-direnv.md",
     "../markdown/30-devenv-languages.md",
+    "../markdown/31-devenv-update.md",
     "../markdown/35-hello-python.md",
     "../markdown/40-processes-services.md",
     "../markdown/45-hello-scripts.md",

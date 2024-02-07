@@ -25,6 +25,6 @@
 
 - Migrer vers le language python
 - Lancer le script hello.py
+- Mettre à jour l'environnement de dev
 
 ### Étape: 03-python
-
