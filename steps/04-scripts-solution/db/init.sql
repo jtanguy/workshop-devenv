@@ -7,4 +7,5 @@ create table workshop (
 
 insert into workshop (conference, city) values 
     ('Volcamp', 'Clermont-Ferrand'),
-    ('Devfest', 'Nantes');
+    ('Devfest', 'Nantes'),
+    ('Touraine Tech', 'Tours');
